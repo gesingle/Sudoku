@@ -47,7 +47,7 @@ public class SudokuController extends JPanel implements MouseListener,
 		numselector.setPreferredSize(new Dimension(base.size * 53, 52));
 
 		// add SudokuCells to numselector
-		for (int i = 0; i < base.size; i++) {
+		for (int i = 1; i <= base.size; i++) {
 			SudokuCell cell = new SudokuCell(i);
 			cell.addMouseListener(this);
 			cell.setBackground(Color.green);

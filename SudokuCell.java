@@ -109,44 +109,29 @@ public class SudokuCell extends JPanel {
 			g2d.setColor(new Color(0, 128, 0));
 		}
 
-		// draw appropriate graphic
-		if (value == 1) {
-			g2d.drawRect(10, 10, 30, 30);
-		} else if (value == 2) {
-			g2d.drawRect(10, 10, 30, 30);
-			g2d.drawRect(15, 15, 20, 20);
-		} else if (value == 3) {
-			g2d.drawRect(10, 10, 30, 30);
-			g2d.drawRect(15, 15, 20, 20);
-			g2d.drawRect(20, 20, 10, 10);
-		} else if (value == 4) {
-			g2d.drawOval(10, 10, 30, 30);
-		} else if (value == 5) {
-			g2d.drawOval(10, 10, 30, 30);
-			g2d.drawOval(15, 15, 20, 20);
-		} else if (value == 6) {
-			g2d.drawOval(10, 10, 30, 30);
-			g2d.drawOval(15, 15, 20, 20);
-			g2d.drawOval(20, 20, 10, 10);
-		} else if (value == 7) {
-			g2d.drawLine(10, 10, 10, 40);
-		} else if (value == 8) {
-			g2d.drawLine(10, 10, 10, 40);
-			g2d.drawLine(20, 10, 20, 40);
-		} else if (value == 9) {
-			g2d.drawLine(10, 10, 10, 40);
-			g2d.drawLine(20, 10, 20, 40);
-			g2d.drawLine(30, 10, 30, 40);
-		} else if (value == 10) {
-			g2d.drawLine(10, 10, 10, 40);
-			g2d.drawLine(20, 10, 20, 40);
-			g2d.drawLine(30, 10, 30, 40);
-			g2d.drawLine(40, 10, 40, 40);
-		} else if (value == 11) {
-			g2d.drawLine(10, 20, 40, 20);
-		} else if (value == 12) {
-			g2d.drawLine(10, 20, 40, 20);
-			g2d.drawLine(10, 30, 40, 30);
+		// set font and size for numbers
+		g.setFont(new Font("TimesRoman", Font.PLAIN, 50));
+		
+		// draw appropriate number
+		switch (value){
+			case 1: g2d.drawString("1", 15, 42);
+					break;
+			case 2: g2d.drawString("2", 15, 42);
+					break;
+			case 3: g2d.drawString("3", 15, 42);
+					break;
+			case 4: g2d.drawString("4", 15, 42);
+					break;
+			case 5: g2d.drawString("5", 15, 42);
+					break;
+			case 6: g2d.drawString("6", 15, 42);
+					break;
+			case 7: g2d.drawString("7", 15, 42);
+					break;
+			case 8: g2d.drawString("8", 15, 42);
+					break;
+			case 9: g2d.drawString("9", 15, 42);
+					break;
 		}
 	}
 
