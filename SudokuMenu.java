@@ -9,7 +9,6 @@ import java.awt.event.*;
  * Class provides menu options for Sudoku Window
  * 
  * @author GSingletary
- * @version Assignment 7: Sudoku Serialization/Integration
  */
 public class SudokuMenu extends JMenuBar implements ActionListener {
 
