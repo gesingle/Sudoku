@@ -10,7 +10,6 @@ import javax.swing.*;
  * 
  * @author GSingletary
  * @author Dan Jinguji
- * @version Assignment 5: Sudoku Input Handling
  */
 public class SudokuMain {
  
