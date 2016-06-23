@@ -9,7 +9,6 @@ import java.awt.event.*;
  * Controller for Sudoku game
  * 
  * @author GSingletary
- * @version Assignment 5: Sudoku Input Handling
  */
 public class SudokuController extends JPanel implements MouseListener,
 		ActionListener {
