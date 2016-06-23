@@ -3,13 +3,11 @@ package csc143.sudoku;
 import java.io.*;
 
 /**
+ * Class provides support for givens
  * 
  * @author Dan Jinguji
  * @author GSingletary
- *
- * @version Assignment 3: Sudoku Core - Standard
- * 
- *          Class provides support for givens
+ *    
  */
 public abstract class SudokuBase extends java.util.Observable implements Serializable {
 
