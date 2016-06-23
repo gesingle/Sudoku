@@ -9,7 +9,7 @@ import javax.swing.JPanel;
  * Class creates a Sudoku cell with appropriate value representation
  * 
  * @author GSingletary
- * @version Assigment 4: Sudoku Graphic Output
+ * 
  */
 @SuppressWarnings("serial")
 public class SudokuCell extends JPanel {
