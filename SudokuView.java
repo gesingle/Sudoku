@@ -9,7 +9,6 @@ import javax.swing.*;
  * Creates a graphical output / user interface for Sudoku
  * 
  * @author GSingletary
- * @version Assigment 4: Sudoku Graphic Output - Standard
  */
 @SuppressWarnings("serial")
 public class SudokuView extends javax.swing.JPanel implements SelectedCell,
