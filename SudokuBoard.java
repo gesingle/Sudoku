@@ -4,7 +4,7 @@ package csc143.sudoku;
  * Class implements abstract methods from SudokuBase
  * 
  * @author GSingletary
- * @version Assignment 3: Sudoku Base - Standard
+ *
  */
 public class SudokuBoard extends SudokuBase {
 
